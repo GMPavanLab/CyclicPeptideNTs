@@ -1,0 +1,5 @@
+CP-CP -> Coulomb + LJ -> (kcal/mmol)
+
+                 average        standard deviation
+anti-parallel	 -128.262	10.131
+pararell	 -70.0641	12.714
