@@ -1,0 +1,250 @@
+[ moleculetype ]
+; Name         Exclusions
+CP1         1
+
+[ atoms ]
+
+    1   Nda     1   LEU    BB     1  0.0000
+    2   AC1     1   LEU     A     2  0.0000
+    3   Nda     2   TRP    BB     3  0.0000
+    4   SC4     2   TRP     C     4  0.0000
+    5   SNd     2   TRP     N     5  0.0000
+    6   SC5     2   TRP     C     6  0.0000
+    7   SC5     2   TRP     C     7  0.0000
+    8   Nda     3   LEU    BB     8  0.0000
+    9   AC1     3   LEU     A     9  0.0000
+   10   Nda     4   GLU    BB    10  0.0000
+   11    Qa     4   GLU     Q    11 -1.0000
+   12   Nda     5   HIS    BB    12  0.0000
+   13   SC4     5   HIS     C    13  0.0000
+   14   SP1     5   HIS     P    14  0.0000
+   15   SP1     5   HIS     P    15  0.0000
+   16   Nda     6   LEU    BB    16  0.0000
+   17   AC1     6   LEU     A    17  0.0000
+   18   Nda     7   TRP    BB    18  0.0000
+   19   SC4     7   TRP     C    19  0.0000
+   20   SNd     7   TRP     N    20  0.0000
+   21   SC5     7   TRP     C    21  0.0000
+   22   SC5     7   TRP     C    22  0.0000
+   23   Nda     8   LEU    BB    23  0.0000
+   24   AC1     8   LEU     A    24  0.0000
+   25   Nda     9   GLU    BB    25  0.0000
+   26    Qa     9   GLU     Q    26 -1.0000
+   27   Nda    10   HIS    BB    27  0.0000
+   28   SC4    10   HIS     C    28  0.0000
+   29   SP1    10   HIS     P    29  0.0000
+   30   SP1    10   HIS     P    30  0.0000
+
+
+[ bonds ]
+
+; Backbone bonds n+1
+    1     3      1   0.38000  6276 ; LEU-TRP
+   16    18      1   0.38000  6276 ; LEU-TRP
+
+    3     8      1   0.38000  6276 ; TRP-LEU
+   18    23      1   0.38000  6276 ; TRP-LEU
+
+    8    10      1   0.38000  6276 ; LEU-GLU
+   23    25      1   0.38000  6276 ; LEU-GLU
+
+   10    12      1   0.38000  6276 ; GLU-HIS
+   25    27      1   0.38000  6276 ; GLU-HIS
+
+   12    16      1   0.38000  6276 ; HIS-LEU              -- bond group 5
+   27     1      1   0.38000  6276 ; HIS-LEU
+
+; Backbone bonds n+2
+    1     8      1   0.38000  6276 ; LEU-LEU
+   16    23      1   0.38000  6276 ; LEU-LEU
+
+    3    10      1   0.38000  6276 ; TRP-GLU
+   18    25      1   0.38000  6276 ; TRP-GLU
+
+    8    12      1   0.38000  6276 ; LEU-HIS
+   23    27      1   0.38000  6276 ; LEU-HIS
+
+   10    16      1   0.38000  6276 ; GLU-LEU
+   25     1      1   0.38000  6276 ; GLU-LEU
+
+   12    18      1   0.38000  6276 ; HIS-TRP              -- bond group 10
+   27     3      1   0.38000  6276 ; HIS-TRP
+
+
+; Sidechain bonds
+    1     2      1   0.33000  7500 ; LEU
+   16    17      1   0.33000  7500 ; LEU
+
+    3     4      1   0.30000  5000 ; TRP
+   18    19      1   0.30000  5000 ; TRP
+
+    8     9      1   0.33000  7500 ; LEU
+   23    24      1   0.33000  7500 ; LEU
+
+   10    11      1   0.40000  5000 ; GLU
+   25    26      1   0.40000  5000 ; GLU
+
+   12    13      1   0.32000  7500 ; HIS                  -- bond group 15
+   27    28      1   0.32000  7500 ; HIS
+
+
+[ constraints ]
+
+; Sidechain constraints
+    4     5      1   0.27000 ; TRP
+   19    20      1   0.27000 ; TRP
+
+    4     6      1   0.27000 ; TRP
+   19    21      1   0.27000 ; TRP
+
+    5     6      1   0.27000 ; TRP
+   20    21      1   0.27000 ; TRP
+
+    5     7      1   0.27000 ; TRP                        -- constraint group 4
+   20    22      1   0.27000 ; TRP
+
+    6     7      1   0.27000 ; TRP
+   21    22      1   0.27000 ; TRP
+
+   13    14      1   0.27000 ; HIS
+   28    29      1   0.27000 ; HIS
+
+   13    15      1   0.27000 ; HIS
+   28    30      1   0.27000 ; HIS
+
+   14    15      1   0.27000 ; HIS
+   29    30      1   0.27000 ; HIS
+
+
+[ angles ]
+
+; Backbone angles n+1
+    1     3     8      2    135    627 ; LEU-TRP-LEU      -- angle group 1
+   16    18    23      2    135    627 ; LEU-TRP-LEU
+
+    3     8    10      2    135    627 ; TRP-LEU-GLU
+   18    23    25      2    135    627 ; TRP-LEU-GLU
+
+    8    10    12      2    135    627 ; LEU-GLU-HIS
+   23    25    27      2    135    627 ; LEU-GLU-HIS
+
+   10    12    16      2    135    627 ; GLU-HIS-LEU
+   25    27     1      2    135    627 ; GLU-HIS-LEU
+
+   12    16    18      2    135    627 ; HIS-LEU-TRP
+   27     1     3      2    135    627 ; HIS-LEU-TRP
+
+; Backbone angles n+2
+    1     8    12      2    135    627 ; LEU-LEU-HIS      -- angle group 6
+   16    23    27      2    135    627 ; LEU-LEU-HIS
+
+    3    10    16      2    135    627 ; TRP-GLU-LEU
+   18    25     1      2    135    627 ; TRP-GLU-LEU
+
+    8    12    18      2    135    627 ; LEU-HIS-TRP
+   23    27     3      2    135    627 ; LEU-HIS-TRP
+
+   10    16    23      2    135    627 ; TRP-LEU-GLU
+   25     1     8      2    135    627 ; TRP-LEU-GLU
+
+   12    18    25      2    135    627 ; HIS-TRP-GLU
+   27     3    10      2    135    627 ; HIS-TRP-GLU
+
+; Backbone-sidechain angles
+    2     1     3      2    100    25                     -- angle group 11
+   17    16    18      2    100    25
+
+    1     3     4      2    100    25
+   16    18    19      2    100    25
+
+    4     3     8      2    100    25
+   19    18    23      2    100    25
+
+    3     8     9      2    100    25
+   18    23    24      2    100    25
+
+    9     8    10      2    100    25                     -- angle group 15
+   24    23    25      2    100    25
+
+    8    10    11      2    100    25
+   23    25    26      2    100    25
+
+   11    10    12      2    100    25
+   26    25    27      2    100    25
+
+   10    12    13      2    100    25
+   25    27    28      2    100    25
+
+   13    12    16      2    100    25
+   28    27     1      2    100    25
+
+   12    16    17      2    100    25                     -- angle group 20
+   27     1     2      2    100    25
+
+; Sidechain angles
+    3     4     5      2    210     50 ; TRP
+   18    19    20      2    210     50 ; TRP
+
+    3     4     6      2     90     50 ; TRP
+   18    19    21      2     90     50 ; TRP
+
+    4     5     7      2     90     50 ; TRP
+   19    20    22      2     90     50 ; TRP
+
+   12    13    14      2    150     50 ; HIS
+   27    28    29      2    150     50 ; HIS
+
+   12    13    15      2    150     50 ; HIS              -- angle group 25
+   27    28    30      2    150     50 ; HIS
+
+; Sidechain angles long range
+    2     1    16      2    210     50 ; LEU
+    1    16    17      2    210     50 ; LEU
+
+    4     3    18      2    210     50 ; TRP
+    3    18    19      2    210     50 ; TRP
+
+    9     8    23      2    210     50 ; LEU
+    8    23    24      2    210     50 ; LEU
+
+   11    10    25      2    210     50 ; GLU
+   10    25    26      2    210     50 ; GLU
+
+   13    12    27      2    210     50 ; HIS              -- angle group 30
+   12    27    28      2    210     50 ; HIS
+
+
+[ dihedrals ]
+
+; Backbone dihedrals
+   27     1     3     8      1      0   100  2
+   12    16    18    23      1      0   100  2
+
+    1     3     8    10      1      0   100  2
+   16    18    23    25      1      0   100  2
+
+    3     8    10    12      1      0   100  2            -- dihedral group 3
+   18    23    25    27      1      0   100  2
+
+    8    10    12    16      1      0   100  2
+   23    25    27     1      1      0   100  2
+
+   10    12    16    18      1      0   100  2
+   25    27     1     3      1      0   100  2
+
+; Backbone-sidechain dihedrals
+    2     1     3     4      1      0   100  2     ; LEU-TRP
+   17    16    18    19      1      0   100  2     ; LEU-TRP
+
+    4     3     8     9      1      0   100  2     ; TRP-LEU
+   19    18    23    24      1      0   100  2     ; TRP-LEU
+
+    9     8    10    11      1      0   100  2     ; LEU-GLU     -- dihedral group 8
+   24    23    25    26      1      0   100  2     ; LEU-GLU
+
+   11    10    12    13      1      0   100  2     ; GLU-HIS
+   26    25    27    28      1      0   100  2     ; GLU-HIS
+
+   13    12    16    17      1      0   100  2     ; HIS-LEU
+   28    27     1     2      1      0   100  2     ; HIS-LEU
+
