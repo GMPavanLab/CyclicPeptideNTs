@@ -1,0 +1,16 @@
+; Include forcefield parameters
+#include "amber99sb-ildn.ff/forcefield.itp"
+#include "amber99sb-ildn.ff/tip3p.itp"
+#include "amber99sb-ildn.ff/ions.itp"
+#include "CP.itp"
+
+
+[ system ]
+; Name
+SCPN made up of 8 CPs in water
+
+[ molecules ]
+; Compound        #mols
+CP                  8
+SOL         11568
+NA               16
