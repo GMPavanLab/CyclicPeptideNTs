@@ -1,0 +1,17 @@
+# This file was created Wed Nov 24 14:49:36 2021
+# Created by:
+#                    :-) GROMACS - gmx clustsize, 2020.3 (-:
+# 
+# Executable:   /cineca/prod/opt/applications/gromacs/2020.3/spectrum_mpi--10.3.1--binary/bin/gmx
+# Data prefix:  /cineca/prod/opt/applications/gromacs/2020.3/spectrum_mpi--10.3.1--binary
+# Working dir:  /m100_work/Pra23_0028/annalisa/01-CICLICPEPTIDE/PEPTIDE1/SA_CG/3cp/PP/Nclus
+# Command line:
+#   gmx clustsize -f ../../MD_v01/14nt_md.xtc -s input_nt.tpr -cut 0.60 -n index_nt.ndx -e 10000000
+# gmx clustsize is part of G R O M A C S:
+#
+# GROningen MAchine for Chemical Simulation
+#
+@    title "Temperature of largest cluster"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "T (K)"
+@TYPE xy
