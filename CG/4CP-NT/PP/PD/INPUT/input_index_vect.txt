@@ -1,0 +1,43 @@
+a 1-30     
+a 91-120
+name 10 cp11
+name 11 cp12 
+a 121-150                           
+a 211-240                        
+name 12 cp21
+name 13 cp22
+a 241-270                           
+a 331-360                        
+name 14 cp31
+name 15 cp32
+a 361-390                           
+a 451-480                        
+name 16 cp41
+name 17 cp42
+a 481-510                           
+a 571-600                        
+name 18 cp51
+name 19 cp52
+a 601-630                         
+a 691-720                        
+name 20 cp61
+name 21 cp62
+a 721-750                           
+a 811-840                        
+name 22 cp71
+name 23 cp72
+a 841-870                           
+a 931-960                        
+name 24 cp81
+name 25 cp82
+a 961-990                           
+a 1051-1080                        
+name 26 cp91
+name 27 cp92
+a 1081-1100                           
+a 1171-1200                        
+name 28 cp101
+name 29 cp102
+q
+
+
