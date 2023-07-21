@@ -1,0 +1,22 @@
+;#include "martini_v2.2P_PS.itp"
+#include "martini_v2.2.itp"
+#include "martini_v2.2_aminoacids.itp"
+#include "martini_v2.0_ions.itp"
+#include "martini_v2.0_solvents.itp"
+#include "CP1.itp"
+;Include position restraint
+#ifdef POSRES1
+#include "posre1.itp"
+#endif                       
+                                                                    
+
+[ system ]
+; name
+Solo CP in water
+
+[ molecules ]
+; name        number
+CP1     	 42
+NA+              84
+W               11348
+WF               1237
