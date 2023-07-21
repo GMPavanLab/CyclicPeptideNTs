@@ -1,0 +1,34 @@
+Found 51 tpr and 51 pull force files in tpr-files.dat and pullf-files.dat, respectively
+Reading 51 tpr and pullf files
+Automatic determination of boundaries...
+
+File input_md0.tpr, 1 coordinates, with these options:
+	Geometry distance   k = 10000     position = 2.33692   dimensions [N N Y] (1 dimensions). Used: Yes
+	Pull group coordinates of 0 groups expected in pullx files.
+	Reference value of the coordinate not expected in pullx files.
+	Use option -v to see this output for all input tpr files
+
+
+Reading pull force file 2nt_md_pullf0.xvg, expecting 2 columns:
+	Columns for pull coordinate 1
+		reaction coordinate:             1
+		center-of-mass of groups:        0
+		reference position column:       No
+	Found 100001 times in 2nt_md_pullf0.xvg
+
+
+Batch Job Summary Report (version 21.01.1) for Job "7cpL" (41534766) on daint
+
+Job information (1/2)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2022-09-26T12:01:20 2022-09-26T12:01:20 2022-09-26T12:04:31 2022-09-26T12:04:52   00:00:21   01:00:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/2)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+    acardell        s1125       normal        1      1.295 kJ
+

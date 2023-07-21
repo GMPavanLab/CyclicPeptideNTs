@@ -1,0 +1,101 @@
+Switching to atp/3.14.5.
+Switching to cray-libsci/20.09.1.
+Switching to cray-mpich/7.7.18.
+Switching to craype/2.7.10.
+Switching to gcc/9.3.0.
+Switching to modules/3.2.11.4.
+Switching to perftools-base/21.09.0.
+Switching to pmi/5.0.17.
+Mon Sep 26 12:04:39 2022: [unset]:_pmi_alps_init:alps_get_placement_info returned with error -1
+Mon Sep 26 12:04:39 2022: [unset]:_pmi_init:_pmi_alps_init returned -1
+                       :-) GROMACS - gmx wham, 2021.5 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov     
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar       
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd        
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra      
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof      
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang      
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan        
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus        
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul     
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund       
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola       
+        Szilard Pall               Sander Pronk              Roland Schulz       
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers      
+       Peter Tieleman              Jon Vincent              Teemu Virolainen     
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov       
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx wham, version 2021.5
+Executable:   /apps/daint/UES/jenkins/7.0.UP03/21.09/daint-gpu/software/GROMACS/2021.5-CrayGNU-21.09-cuda/bin/gmx
+Data prefix:  /apps/daint/UES/jenkins/7.0.UP03/21.09/daint-gpu/software/GROMACS/2021.5-CrayGNU-21.09-cuda
+Working dir:  /scratch/snx3000/acardell/ANNALISA/01-CYCLIC-PEPTIDE/AA/UMBRELLA-Lateral/5CP-5CP/PP_UMBRELLA
+Command line:
+  gmx wham -it tpr-files.dat -if pullf-files.dat -o pmf.xvg -hist histo.xvg -unit kJ
+
+Reading file input_md0.tpr, VERSION 2021.5 (single precision)
+Reading file input_md1.tpr, VERSION 2021.5 (single precision)
+Reading file input_md2.tpr, VERSION 2021.5 (single precision)
+Reading file input_md3.tpr, VERSION 2021.5 (single precision)
+Reading file input_md4.tpr, VERSION 2021.5 (single precision)
+Reading file input_md5.tpr, VERSION 2021.5 (single precision)
+Reading file input_md6.tpr, VERSION 2021.5 (single precision)
+Reading file input_md7.tpr, VERSION 2021.5 (single precision)
+Reading file input_md8.tpr, VERSION 2021.5 (single precision)
+Reading file input_md9.tpr, VERSION 2021.5 (single precision)
+Reading file input_md10.tpr, VERSION 2021.5 (single precision)
+Reading file input_md11.tpr, VERSION 2021.5 (single precision)
+Reading file input_md12.tpr, VERSION 2021.5 (single precision)
+Reading file input_md13.tpr, VERSION 2021.5 (single precision)
+Reading file input_md14.tpr, VERSION 2021.5 (single precision)
+Reading file input_md15.tpr, VERSION 2021.5 (single precision)
+Reading file input_md16.tpr, VERSION 2021.5 (single precision)
+Reading file input_md17.tpr, VERSION 2021.5 (single precision)
+Reading file input_md18.tpr, VERSION 2021.5 (single precision)
+Reading file input_md19.tpr, VERSION 2021.5 (single precision)
+Reading file input_md20.tpr, VERSION 2021.5 (single precision)
+Reading file input_md21.tpr, VERSION 2021.5 (single precision)
+Reading file input_md22.tpr, VERSION 2021.5 (single precision)
+Reading file input_md23.tpr, VERSION 2021.5 (single precision)
+Reading file input_md24.tpr, VERSION 2021.5 (single precision)
+Reading file input_md25.tpr, VERSION 2021.5 (single precision)
+Reading file input_md26.tpr, VERSION 2021.5 (single precision)
+Reading file input_md27.tpr, VERSION 2021.5 (single precision)
+Reading file input_md28.tpr, VERSION 2021.5 (single precision)
+Reading file input_md29.tpr, VERSION 2021.5 (single precision)
+Reading file input_md30.tpr, VERSION 2021.5 (single precision)
+Reading file input_md31.tpr, VERSION 2021.5 (single precision)
+Reading file input_md32.tpr, VERSION 2021.5 (single precision)
+Reading file input_md33.tpr, VERSION 2021.5 (single precision)
+Reading file input_md34.tpr, VERSION 2021.5 (single precision)
+Reading file input_md35.tpr, VERSION 2021.5 (single precision)
+Reading file input_md36.tpr, VERSION 2021.5 (single precision)
+Reading file input_md37.tpr, VERSION 2021.5 (single precision)
+Reading file input_md38.tpr, VERSION 2021.5 (single precision)
+Reading file input_md39.tpr, VERSION 2021.5 (single precision)
+Reading file input_md40.tpr, VERSION 2021.5 (single precision)
+
+-------------------------------------------------------
+Program:     gmx wham, version 2021.5
+Source file: src/gromacs/utility/futil.cpp (line 481)
+
+File input/output error:
+input_md41.tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
