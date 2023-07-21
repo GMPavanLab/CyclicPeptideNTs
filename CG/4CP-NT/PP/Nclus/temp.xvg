@@ -1,0 +1,17 @@
+# This file was created Wed Apr 14 15:39:16 2021
+# Created by:
+#                    :-) GROMACS - gmx clustsize, 2020.2 (-:
+# 
+# Executable:   /cineca/prod/opt/applications/gromacs/2020.2/spectrum_mpi--10.3.1--binary/bin/gmx
+# Data prefix:  /cineca/prod/opt/applications/gromacs/2020.2/spectrum_mpi--10.3.1--binary
+# Working dir:  /m100_work/IscrB_POLYFUEL/annalisa/CG/SA_SCPT_noPOL/P4/4cp/10nt_q005_P4_para_noPOL/PP/Nclus
+# Command line:
+#   gmx clustsize -f ../../MD/10nt_md.xtc -s input_nt.tpr -cut 0.60 -n index_nt.ndx
+# gmx clustsize is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "Temperature of largest cluster"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "T (K)"
+@TYPE xy
