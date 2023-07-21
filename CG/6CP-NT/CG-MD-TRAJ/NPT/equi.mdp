@@ -1,0 +1,73 @@
+integrator               = md
+dt                       = 0.01
+define                   = -DPOSRES1
+nsteps                   = 1000000
+nstxout                  = 1000 
+nstvout                  = 1000
+nstfout                  = 1000
+nstlog                   = 1000 
+nstenergy                = 100
+nstxout-compressed       = 1000
+compressed-x-precision   = 100
+
+cutoff-scheme            = Verlet
+nstlist                  = 10
+ns_type                  = grid
+pbc                      = xyz
+verlet-buffer-tolerance  = 0.005
+
+ OPTIONS FOR ELECTROSTATICS AND VDW = 
+; Method for doing electrostatics = 
+coulombtype              = PME 
+coulomb-modifier         = Potential-shift-Verlet 
+rcoulomb                 = 1.2
+;
+; Polarizable water may be used with standard Martini shift, but also with PME
+;
+rcoulomb_switch          = 0.0
+; Dielectric constant (DC) for cut-off or DC of reaction field = 
+epsilon_r                = 15 
+; Method for doing Van der Waals = 
+vdw_type                 = Cut-off 
+vdw-modifier             = Potential-shift-Verlet
+; cut-off lengths        = 
+rvdw_switch              = 0.9
+rvdw                     = 1.2
+; Apply long range dispersion corrections for Energy and Pressure = 
+DispCorr                 = No
+; Spacing for the PME/PPPM FFT grid = 
+fourierspacing           = 0.16
+; EWALD/PME/PPPM parameters = 
+pme_order                = 4
+ewald_rtol               = 1e-05
+epsilon_surface          = 0
+optimize_fft             = no
+
+tcoupl                   = v-rescale 
+tc-grps                  = Protein non-Protein
+tau-t                    = 1   1
+ref-t                    = 298 298
+gen-vel                  = yes
+continuation             = no
+gen-temp                 = 298
+; Pcoupl                   = parrinello-rahman 
+Pcoupl                   = Berendsen 
+Pcoupltype               = isotropic
+tau-p                    = 8.0
+compressibility          = 3e-4
+ref-p                    = 1.0
+refcoord-scaling         = com
+
+
+; OPTIONS FOR BONDS     = 
+constraints              = none 
+; Type of constraint algorithm = 
+constraint_algorithm     = Lincs
+; Do not constrain the start configuration = 
+; Relative tolerance of shake = 
+shake_tol                = 0.0001
+; Highest order in the expansion of the constraint coupling matrix = 
+lincs_order              = 4
+; Lincs will write a warning to the stderr if in one step a bond = 
+; rotates over more degrees than = 
+lincs_warnangle          = 90
