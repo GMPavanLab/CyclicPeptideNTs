@@ -1,0 +1,288 @@
+                       :-) GROMACS - gmx wham, 2020.2 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf      Artem Zhmurov   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx wham, version 2020.2
+Executable:   /cineca/prod/opt/applications/gromacs/2020.2/spectrum_mpi--10.3.1--binary/bin/gmx
+Data prefix:  /cineca/prod/opt/applications/gromacs/2020.2/spectrum_mpi--10.3.1--binary
+Working dir:  /m100_work/IscrB_POLYFUEL/annalisa/SCPT1_dim/SCPT1-SCPT1_UMBRELLA-TG/8CP-8CP/PP_UMBRELLA_res
+Command line:
+  gmx wham -it tpr-files.dat -if pullf-files.dat -o pmf_v01.xvg -hist histo_v01.xvg -bsres bres_v01.xvg -bsprof prof_v01.xvg -unit kJ
+
+Reading file input_md010.tpr, VERSION 2020.2 (single precision)
+Reading file input_md09.tpr, VERSION 2020.2 (single precision)
+Reading file input_md08.tpr, VERSION 2020.2 (single precision)
+Reading file input_md07.tpr, VERSION 2020.2 (single precision)
+Reading file input_md06.tpr, VERSION 2020.2 (single precision)
+Reading file input_md05.tpr, VERSION 2020.2 (single precision)
+Reading file input_md04.tpr, VERSION 2020.2 (single precision)
+Reading file input_md03.tpr, VERSION 2020.2 (single precision)
+Reading file input_md02.tpr, VERSION 2020.2 (single precision)
+Reading file input_md01.tpr, VERSION 2020.2 (single precision)
+Reading file input_md0.tpr, VERSION 2020.2 (single precision)
+Reading file input_md1.tpr, VERSION 2020.2 (single precision)
+Reading file input_md2.tpr, VERSION 2020.2 (single precision)
+Reading file input_md3.tpr, VERSION 2020.2 (single precision)
+Reading file input_md4.tpr, VERSION 2020.2 (single precision)
+Reading file input_md5.tpr, VERSION 2020.2 (single precision)
+Reading file input_md6.tpr, VERSION 2020.2 (single precision)
+Reading file input_md7.tpr, VERSION 2020.2 (single precision)
+Reading file input_md8.tpr, VERSION 2020.2 (single precision)
+Reading file input_md9.tpr, VERSION 2020.2 (single precision)
+Reading file input_md10.tpr, VERSION 2020.2 (single precision)
+Reading file input_md11.tpr, VERSION 2020.2 (single precision)
+Reading file input_md12.tpr, VERSION 2020.2 (single precision)
+Reading file input_md13.tpr, VERSION 2020.2 (single precision)
+Reading file input_md14.tpr, VERSION 2020.2 (single precision)
+Reading file input_md15.tpr, VERSION 2020.2 (single precision)
+Reading file input_md16.tpr, VERSION 2020.2 (single precision)
+Reading file input_md17.tpr, VERSION 2020.2 (single precision)
+Reading file input_md18.tpr, VERSION 2020.2 (single precision)
+Reading file input_md19.tpr, VERSION 2020.2 (single precision)
+Reading file input_md20.tpr, VERSION 2020.2 (single precision)
+Reading file input_md21.tpr, VERSION 2020.2 (single precision)
+Reading file input_md22.tpr, VERSION 2020.2 (single precision)
+Reading file input_md23.tpr, VERSION 2020.2 (single precision)
+Reading file input_md24.tpr, VERSION 2020.2 (single precision)
+Reading file input_md25.tpr, VERSION 2020.2 (single precision)
+Reading file input_md26.tpr, VERSION 2020.2 (single precision)
+Reading file input_md27.tpr, VERSION 2020.2 (single precision)
+Reading file input_md28.tpr, VERSION 2020.2 (single precision)
+Reading file input_md29.tpr, VERSION 2020.2 (single precision)
+Reading file input_md30.tpr, VERSION 2020.2 (single precision)
+Reading file input_md31.tpr, VERSION 2020.2 (single precision)
+Reading file input_md32.tpr, VERSION 2020.2 (single precision)
+Reading file input_md33.tpr, VERSION 2020.2 (single precision)
+Reading file input_md34.tpr, VERSION 2020.2 (single precision)
+Reading file input_md35.tpr, VERSION 2020.2 (single precision)
+Reading file input_md36.tpr, VERSION 2020.2 (single precision)
+Reading file input_md37.tpr, VERSION 2020.2 (single precision)
+Reading file input_md38.tpr, VERSION 2020.2 (single precision)
+Reading file input_md39.tpr, VERSION 2020.2 (single precision)
+Reading file input_md40.tpr, VERSION 2020.2 (single precision)
+Reading file input_md010.tpr, VERSION 2020.2 (single precision)
+Reading file input_md09.tpr, VERSION 2020.2 (single precision)
+Reading file input_md08.tpr, VERSION 2020.2 (single precision)
+Reading file input_md07.tpr, VERSION 2020.2 (single precision)
+Reading file input_md06.tpr, VERSION 2020.2 (single precision)
+Reading file input_md05.tpr, VERSION 2020.2 (single precision)
+Reading file input_md04.tpr, VERSION 2020.2 (single precision)
+Reading file input_md03.tpr, VERSION 2020.2 (single precision)
+Reading file input_md02.tpr, VERSION 2020.2 (single precision)
+Reading file input_md01.tpr, VERSION 2020.2 (single precision)
+Reading file input_md0.tpr, VERSION 2020.2 (single precision)
+Reading file input_md1.tpr, VERSION 2020.2 (single precision)
+Reading file input_md2.tpr, VERSION 2020.2 (single precision)
+Reading file input_md3.tpr, VERSION 2020.2 (single precision)
+Reading file input_md4.tpr, VERSION 2020.2 (single precision)
+Reading file input_md5.tpr, VERSION 2020.2 (single precision)
+Reading file input_md6.tpr, VERSION 2020.2 (single precision)
+Reading file input_md7.tpr, VERSION 2020.2 (single precision)
+Reading file input_md8.tpr, VERSION 2020.2 (single precision)
+Reading file input_md9.tpr, VERSION 2020.2 (single precision)
+Reading file input_md10.tpr, VERSION 2020.2 (single precision)
+Reading file input_md11.tpr, VERSION 2020.2 (single precision)
+Reading file input_md12.tpr, VERSION 2020.2 (single precision)
+Reading file input_md13.tpr, VERSION 2020.2 (single precision)
+Reading file input_md14.tpr, VERSION 2020.2 (single precision)
+Reading file input_md15.tpr, VERSION 2020.2 (single precision)
+Reading file input_md16.tpr, VERSION 2020.2 (single precision)
+Reading file input_md17.tpr, VERSION 2020.2 (single precision)
+Reading file input_md18.tpr, VERSION 2020.2 (single precision)
+Reading file input_md19.tpr, VERSION 2020.2 (single precision)
+Reading file input_md20.tpr, VERSION 2020.2 (single precision)
+Reading file input_md21.tpr, VERSION 2020.2 (single precision)
+Reading file input_md22.tpr, VERSION 2020.2 (single precision)
+Reading file input_md23.tpr, VERSION 2020.2 (single precision)
+Reading file input_md24.tpr, VERSION 2020.2 (single precision)
+Reading file input_md25.tpr, VERSION 2020.2 (single precision)
+Reading file input_md26.tpr, VERSION 2020.2 (single precision)
+Reading file input_md27.tpr, VERSION 2020.2 (single precision)
+Reading file input_md28.tpr, VERSION 2020.2 (single precision)
+Reading file input_md29.tpr, VERSION 2020.2 (single precision)
+Reading file input_md30.tpr, VERSION 2020.2 (single precision)
+Reading file input_md31.tpr, VERSION 2020.2 (single precision)
+Reading file input_md32.tpr, VERSION 2020.2 (single precision)
+Reading file input_md33.tpr, VERSION 2020.2 (single precision)
+Reading file input_md34.tpr, VERSION 2020.2 (single precision)
+Reading file input_md35.tpr, VERSION 2020.2 (single precision)
+Reading file input_md36.tpr, VERSION 2020.2 (single precision)
+Reading file input_md37.tpr, VERSION 2020.2 (single precision)
+Reading file input_md38.tpr, VERSION 2020.2 (single precision)
+Reading file input_md39.tpr, VERSION 2020.2 (single precision)
+Reading file input_md40.tpr, VERSION 2020.2 (single precision)
+
+Back Off! I just backed up histo_v01.xvg to ./#histo_v01.xvg.1#
+Warning, poor sampling bin 198 (z=4.37549). Check your histograms!
+Warning, poor sampling bin 199 (z=4.38527). Check your histograms!
+
+Back Off! I just backed up pmf_v01.xvg to ./#pmf_v01.xvg.1#
+
+GROMACS reminds you: "Every electron is sacred." (Greg McMullan, on Cryo-EM detectors)
+
+                       :-) GROMACS - gmx wham, 2020.2 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf      Artem Zhmurov   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx wham, version 2020.2
+Executable:   /cineca/prod/opt/applications/gromacs/2020.2/spectrum_mpi--10.3.1--binary/bin/gmx
+Data prefix:  /cineca/prod/opt/applications/gromacs/2020.2/spectrum_mpi--10.3.1--binary
+Working dir:  /m100_work/IscrB_POLYFUEL/annalisa/SCPT1_dim/SCPT1-SCPT1_UMBRELLA-TG/8CP-8CP/PP_UMBRELLA_res
+Command line:
+  gmx wham -it tpr-files.dat -if pullf-files.dat -o pmf_v02.xvg -hist histo_v02.xvg -nBootstrap 100 -bsres bsResults.xvg -unit kJ
+
+Reading file input_md010.tpr, VERSION 2020.2 (single precision)
+Reading file input_md09.tpr, VERSION 2020.2 (single precision)
+Reading file input_md08.tpr, VERSION 2020.2 (single precision)
+Reading file input_md07.tpr, VERSION 2020.2 (single precision)
+Reading file input_md06.tpr, VERSION 2020.2 (single precision)
+Reading file input_md05.tpr, VERSION 2020.2 (single precision)
+Reading file input_md04.tpr, VERSION 2020.2 (single precision)
+Reading file input_md03.tpr, VERSION 2020.2 (single precision)
+Reading file input_md02.tpr, VERSION 2020.2 (single precision)
+Reading file input_md01.tpr, VERSION 2020.2 (single precision)
+Reading file input_md0.tpr, VERSION 2020.2 (single precision)
+Reading file input_md1.tpr, VERSION 2020.2 (single precision)
+Reading file input_md2.tpr, VERSION 2020.2 (single precision)
+Reading file input_md3.tpr, VERSION 2020.2 (single precision)
+Reading file input_md4.tpr, VERSION 2020.2 (single precision)
+Reading file input_md5.tpr, VERSION 2020.2 (single precision)
+Reading file input_md6.tpr, VERSION 2020.2 (single precision)
+Reading file input_md7.tpr, VERSION 2020.2 (single precision)
+Reading file input_md8.tpr, VERSION 2020.2 (single precision)
+Reading file input_md9.tpr, VERSION 2020.2 (single precision)
+Reading file input_md10.tpr, VERSION 2020.2 (single precision)
+Reading file input_md11.tpr, VERSION 2020.2 (single precision)
+Reading file input_md12.tpr, VERSION 2020.2 (single precision)
+Reading file input_md13.tpr, VERSION 2020.2 (single precision)
+Reading file input_md14.tpr, VERSION 2020.2 (single precision)
+Reading file input_md15.tpr, VERSION 2020.2 (single precision)
+Reading file input_md16.tpr, VERSION 2020.2 (single precision)
+Reading file input_md17.tpr, VERSION 2020.2 (single precision)
+Reading file input_md18.tpr, VERSION 2020.2 (single precision)
+Reading file input_md19.tpr, VERSION 2020.2 (single precision)
+Reading file input_md20.tpr, VERSION 2020.2 (single precision)
+Reading file input_md21.tpr, VERSION 2020.2 (single precision)
+Reading file input_md22.tpr, VERSION 2020.2 (single precision)
+Reading file input_md23.tpr, VERSION 2020.2 (single precision)
+Reading file input_md24.tpr, VERSION 2020.2 (single precision)
+Reading file input_md25.tpr, VERSION 2020.2 (single precision)
+Reading file input_md26.tpr, VERSION 2020.2 (single precision)
+Reading file input_md27.tpr, VERSION 2020.2 (single precision)
+Reading file input_md28.tpr, VERSION 2020.2 (single precision)
+Reading file input_md29.tpr, VERSION 2020.2 (single precision)
+Reading file input_md30.tpr, VERSION 2020.2 (single precision)
+Reading file input_md31.tpr, VERSION 2020.2 (single precision)
+Reading file input_md32.tpr, VERSION 2020.2 (single precision)
+Reading file input_md33.tpr, VERSION 2020.2 (single precision)
+Reading file input_md34.tpr, VERSION 2020.2 (single precision)
+Reading file input_md35.tpr, VERSION 2020.2 (single precision)
+Reading file input_md36.tpr, VERSION 2020.2 (single precision)
+Reading file input_md37.tpr, VERSION 2020.2 (single precision)
+Reading file input_md38.tpr, VERSION 2020.2 (single precision)
+Reading file input_md39.tpr, VERSION 2020.2 (single precision)
+Reading file input_md40.tpr, VERSION 2020.2 (single precision)
+Reading file input_md010.tpr, VERSION 2020.2 (single precision)
+Reading file input_md09.tpr, VERSION 2020.2 (single precision)
+Reading file input_md08.tpr, VERSION 2020.2 (single precision)
+Reading file input_md07.tpr, VERSION 2020.2 (single precision)
+Reading file input_md06.tpr, VERSION 2020.2 (single precision)
+Reading file input_md05.tpr, VERSION 2020.2 (single precision)
+Reading file input_md04.tpr, VERSION 2020.2 (single precision)
+Reading file input_md03.tpr, VERSION 2020.2 (single precision)
+Reading file input_md02.tpr, VERSION 2020.2 (single precision)
+Reading file input_md01.tpr, VERSION 2020.2 (single precision)
+Reading file input_md0.tpr, VERSION 2020.2 (single precision)
+Reading file input_md1.tpr, VERSION 2020.2 (single precision)
+Reading file input_md2.tpr, VERSION 2020.2 (single precision)
+Reading file input_md3.tpr, VERSION 2020.2 (single precision)
+Reading file input_md4.tpr, VERSION 2020.2 (single precision)
+Reading file input_md5.tpr, VERSION 2020.2 (single precision)
+Reading file input_md6.tpr, VERSION 2020.2 (single precision)
+Reading file input_md7.tpr, VERSION 2020.2 (single precision)
+Reading file input_md8.tpr, VERSION 2020.2 (single precision)
+Reading file input_md9.tpr, VERSION 2020.2 (single precision)
+Reading file input_md10.tpr, VERSION 2020.2 (single precision)
+Reading file input_md11.tpr, VERSION 2020.2 (single precision)
+Reading file input_md12.tpr, VERSION 2020.2 (single precision)
+Reading file input_md13.tpr, VERSION 2020.2 (single precision)
+Reading file input_md14.tpr, VERSION 2020.2 (single precision)
+Reading file input_md15.tpr, VERSION 2020.2 (single precision)
+Reading file input_md16.tpr, VERSION 2020.2 (single precision)
+Reading file input_md17.tpr, VERSION 2020.2 (single precision)
+Reading file input_md18.tpr, VERSION 2020.2 (single precision)
+Reading file input_md19.tpr, VERSION 2020.2 (single precision)
+Reading file input_md20.tpr, VERSION 2020.2 (single precision)
+Reading file input_md21.tpr, VERSION 2020.2 (single precision)
+Reading file input_md22.tpr, VERSION 2020.2 (single precision)
+Reading file input_md23.tpr, VERSION 2020.2 (single precision)
+Reading file input_md24.tpr, VERSION 2020.2 (single precision)
+Reading file input_md25.tpr, VERSION 2020.2 (single precision)
+Reading file input_md26.tpr, VERSION 2020.2 (single precision)
+Reading file input_md27.tpr, VERSION 2020.2 (single precision)
+Reading file input_md28.tpr, VERSION 2020.2 (single precision)
+Reading file input_md29.tpr, VERSION 2020.2 (single precision)
+Reading file input_md30.tpr, VERSION 2020.2 (single precision)
+Reading file input_md31.tpr, VERSION 2020.2 (single precision)
+Reading file input_md32.tpr, VERSION 2020.2 (single precision)
+Reading file input_md33.tpr, VERSION 2020.2 (single precision)
+Reading file input_md34.tpr, VERSION 2020.2 (single precision)
+Reading file input_md35.tpr, VERSION 2020.2 (single precision)
+Reading file input_md36.tpr, VERSION 2020.2 (single precision)
+Reading file input_md37.tpr, VERSION 2020.2 (single precision)
+Reading file input_md38.tpr, VERSION 2020.2 (single precision)
+Reading file input_md39.tpr, VERSION 2020.2 (single precision)
+Reading file input_md40.tpr, VERSION 2020.2 (single precision)
+Warning, poor sampling bin 198 (z=4.37549). Check your histograms!
+Warning, poor sampling bin 199 (z=4.38527). Check your histograms!
+
+GROMACS reminds you: "Safety lights are for dudes" (Ghostbusters 2016)
+
