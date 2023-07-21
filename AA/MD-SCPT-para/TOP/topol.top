@@ -1,0 +1,20 @@
+; Include forcefield parameters
+#include "amber99sb-ildn.ff/forcefield.itp"
+#include "amber99sb-ildn.ff/tip3p.itp"
+#include "amber99sb-ildn.ff/ions.itp"
+#include "CP_new.itp"
+
+; Include Position restraint file
+#ifdef POSRES
+#include "posre.itp"
+#endif
+
+[ system ]
+; Name
+SCPN made up of 8 CPs in water
+
+[ molecules ]
+; Compound        #mols
+CP                  8
+SOL         3602
+NA               16

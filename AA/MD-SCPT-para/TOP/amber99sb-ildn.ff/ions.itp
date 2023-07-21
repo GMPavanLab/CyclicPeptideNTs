@@ -1,0 +1,51 @@
+;modificado. Puse los de rebe
+[ moleculetype ]
+  ; molname       nrexcl
+  CL             1
+
+[ atoms ]
+  ; id    at type res nr  residu name     at name  cg nr  charge   mass
+    1       Cl      1         CL           CL      1     -1     35.45300
+
+[ moleculetype ]
+  ; molname       nrexcl
+  CA              1
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB
+     1         Ca2      1    CA     CA       1    2.00000  40.100000
+
+[ moleculetype ]
+  ; molname       nrexcl
+  NA             1
+
+[ atoms ]
+  ; id    at type res nr  residu name     at name  cg nr  charge   mass
+    1       Na      1          NA         NA       1      1     22.9898
+
+[ moleculetype ]
+;  ; molname       nrexcl
+  K             1
+
+[ atoms ]
+  ; id    at type res nr  residu name     at name  cg nr  charge   mass
+    1       K      1          K         K       1      1     39.10000
+
+[ moleculetype ]
+  ; molname       nrexcl
+  LI             1
+
+[ atoms ]
+  ; id    at type res nr  residu name     at name  cg nr  charge   mass
+    1       Li      1          LI         LI       1      1     6.94
+
+[ moleculetype ]
+  ; molname       nrexcl
+  CS             1
+
+[ atoms ]
+  ; id    at type res nr  residu name     at name  cg nr  charge   mass
+    1       Cs      1          CS         CS       1      1     132.91
+
+
+

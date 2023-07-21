@@ -1,0 +1,8 @@
+1) Poner en aminoacids.hdb los enlaces de H del N de los Naminoacidos como:
+1       2       H       N       CA      HA
+
+2) Eliminar C en Cterminales en archivo aminoacids.r2b
+
+3) Eliminar Naminoacidos del aminoacids.rtp y poner los no terminales, poniendo como nombre Naminoacido (Ej. NALA) y eliminando conexiones con residuo anterior (las que tienen un -atomo)
+
+4) ejecutar pdb2gmx y hacer_itp_cerrado_amber.itp

@@ -1,0 +1,31 @@
+; rtp residue to rtp building block table
+;GMX   Force-field
+;      main  N-ter C-ter 2-ter
+ALA    ALA   NALA   ALA  -
+ARG    ARG   NARG   ARG  -
+ARGN   -     -     -     -
+ASN    ASN   NASN   ASN  -
+ASP    ASP   NASP   ASP  -
+ASPH   ASH   -     -     -
+CYS    CYS   NCYS   CYS  -
+CYS2   CYX   NCYX   CYX  -
+GLN    GLN   NGLN   GLN  -
+QLN    -     -     -     -
+GLU    GLU   NGLU   GLU  -
+GLY    GLY   NGLY   GLY  -
+GLUH   GLH   -     -     -
+HISD   HID   NHID   HID  -
+HISE   HIE   NHIE   HIE  -
+HISH   HIP   NHIP   HIP  -
+ILE    ILE   NILE   ILE  -
+LYSN   LYN   -     -     - 
+LYS    LYS   NLYS   LYS  -
+LEU    LEU   NLEU   LEU  -
+MET    MET   NMET   MET  -
+PHE    PHE   NPHE   PHE  -
+PRO    PRO   NPRO   PRO  -
+SER    SER   NSER   SER  -
+THR    THR   NTHR   THR  -
+TRP    TRP   NTRP   TRP  -
+TYR    TYR   NTYR   TYR  -
+VAL    VAL   NVAL   VAL  -
