@@ -1,0 +1,32 @@
+a 1-180
+name 10 nt1
+a 181-360
+name 11	nt2
+a 361-540
+name 12	nt3
+a 541-720
+name 13	nt4
+a 721-900
+name 14	nt5
+a 901-1080
+name 15	nt6
+a 1081-1260
+name 16 nt7
+r TRP
+name 17 TRP
+17&10
+name 18 TRP1
+17&11
+name 19 TRP2
+17&12
+name 20	TRP3
+17&13
+name 21	TRP4
+17&14
+name 22	TRP5
+17&15
+name 23	TRP6
+17&16
+name 24	TRP7
+q
+
