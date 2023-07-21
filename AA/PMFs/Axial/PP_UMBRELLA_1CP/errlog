@@ -1,0 +1,141 @@
+Mon Jun  1 23:25:26 2020: [unset]:_pmi_alps_init:alps_get_placement_info returned with error -1
+Mon Jun  1 23:25:26 2020: [unset]:_pmi_init:_pmi_alps_init returned -1
+                       :-) GROMACS - gmx wham, 2018.6 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
+  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
+ Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
+  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
+  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
+    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
+   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx wham, version 2018.6
+Executable:   /users/lpesce/easybuild/daint/haswell/software/GROMACS/2018.6-CrayGNU-19.10-PLUMEDv-2.5.1-cuda-10.1/bin/gmx
+Data prefix:  /users/lpesce/easybuild/daint/haswell/software/GROMACS/2018.6-CrayGNU-19.10-PLUMEDv-2.5.1-cuda-10.1
+Working dir:  /users/acardell/SCPT1_UMBRELLA/PP_UMBRELLA
+Command line:
+  gmx wham -it tpr-files.dat -if pullf-files.dat -o pmf.xvg -hist histo.xvg -unit kJ
+
+Reading file input_md0.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md1.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md2.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md3.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md4.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md5.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md6.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md7.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md8.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md9.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md10.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md11.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md12.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md13.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md14.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md15.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md16.tpr, VERSION 2018.6 (single precision)
+Reading file input_md17.tpr, VERSION 2018.6 (single precision)
+Reading file input_md18.tpr, VERSION 2018.6 (single precision)
+Reading file input_md19.tpr, VERSION 2018.6 (single precision)
+Reading file input_md20.tpr, VERSION 2018.6 (single precision)
+Reading file input_md21.tpr, VERSION 2018.6 (single precision)
+Reading file input_md22.tpr, VERSION 2018.6 (single precision)
+Reading file input_md23.tpr, VERSION 2018.6 (single precision)
+Reading file input_md24.tpr, VERSION 2018.6 (single precision)
+Reading file input_md25.tpr, VERSION 2018.6 (single precision)
+Reading file input_md0.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md1.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md2.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md3.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md4.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md5.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md6.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md7.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md8.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md9.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md10.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md11.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md12.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md13.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md14.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md15.tpr, VERSION 2016.3 (single precision)
+Note: file tpx version 110, software tpx version 112
+Reading file input_md16.tpr, VERSION 2018.6 (single precision)
+Reading file input_md17.tpr, VERSION 2018.6 (single precision)
+Reading file input_md18.tpr, VERSION 2018.6 (single precision)
+Reading file input_md19.tpr, VERSION 2018.6 (single precision)
+Reading file input_md20.tpr, VERSION 2018.6 (single precision)
+Reading file input_md21.tpr, VERSION 2018.6 (single precision)
+Reading file input_md22.tpr, VERSION 2018.6 (single precision)
+Reading file input_md23.tpr, VERSION 2018.6 (single precision)
+Reading file input_md24.tpr, VERSION 2018.6 (single precision)
+Reading file input_md25.tpr, VERSION 2018.6 (single precision)
+
+WARNING, no data point in bin 1 (z=0.494337) !
+You may not get a reasonable profile. Check your histograms!
+Warning, poor sampling bin 190 (z=0.899465). Check your histograms!
+Warning, poor sampling bin 191 (z=0.901609). Check your histograms!
+
+WARNING, no data point in bin 192 (z=0.903752) !
+You may not get a reasonable profile. Check your histograms!
+Warning, poor sampling bin 193 (z=0.905896). Check your histograms!
+Warning, poor sampling bin 194 (z=0.908039). Check your histograms!
+Warning, poor sampling bin 195 (z=0.910183). Check your histograms!
+Warning, poor sampling bin 196 (z=0.912326). Check your histograms!
+
+WARNING, no data point in bin 197 (z=0.91447) !
+You may not get a reasonable profile. Check your histograms!
+
+WARNING, no data point in bin 198 (z=0.916613) !
+You may not get a reasonable profile. Check your histograms!
+Warning, poor sampling bin 199 (z=0.918757). Check your histograms!
+
+GROMACS reminds you: "It is disconcerting to reflect on the number of students we have flunked in chemistry for not knowing what we later found to be untrue." (Robert L. Weber)
+

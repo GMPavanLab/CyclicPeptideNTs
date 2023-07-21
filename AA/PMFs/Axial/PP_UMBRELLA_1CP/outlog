@@ -1,0 +1,355 @@
+Found 26 tpr and 26 pull force files in tpr-files.dat and pullf-files.dat, respectively
+Reading 26 tpr and pullf files
+Automatic determination of boundaries...
+
+File input_md0.tpr, 1 coordinates, with these options:
+	Geometry distance   k = 10000     position = 0.531519  dimensions [N N Y] (1 dimensions). Used: Yes
+	Pull group coordinates of 0 groups expected in pullx files.
+	Reference value of the coordinate not expected in pullx files.
+	Use option -v to see this output for all input tpr files
+
+
+Reading pull force file 2CP_md_pullf0.xvg, expecting 2 columns:
+	Columns for pull coordinate 1
+		reaction coordinate:             1
+		center-of-mass of groups:        0
+		reference position column:       No
+	Found 200001 times in 2CP_md_pullf0.xvg
+
+Determined boundaries to 0.491122 and 0.919829
+
+Wrote histo.xvg
+Getting initial potential by integration.
+Initialized rapid wham stuff (contrib tolerance 3.84615e-08)
+Evaluating only 2468 of 5200 expressions.
+
+	   1) Maximum change 2.864192e-01
+	 100) Maximum change 4.588190e-05
+	 200) Maximum change 4.526651e-05
+	 300) Maximum change 4.468853e-05
+	 400) Maximum change 4.411858e-05
+	 500) Maximum change 4.355653e-05
+	 600) Maximum change 4.300225e-05
+	 700) Maximum change 4.245563e-05
+	 800) Maximum change 4.191653e-05
+	 900) Maximum change 4.138484e-05
+	1000) Maximum change 4.086043e-05
+	1100) Maximum change 4.034319e-05
+	1200) Maximum change 3.983301e-05
+	1300) Maximum change 3.932978e-05
+	1400) Maximum change 3.883338e-05
+	1500) Maximum change 3.834371e-05
+	1600) Maximum change 3.786067e-05
+	1700) Maximum change 3.738414e-05
+	1800) Maximum change 3.691404e-05
+	1900) Maximum change 3.645026e-05
+	2000) Maximum change 3.599270e-05
+	2100) Maximum change 3.554128e-05
+	2200) Maximum change 3.509588e-05
+	2300) Maximum change 3.465644e-05
+	2400) Maximum change 3.422285e-05
+	2500) Maximum change 3.379502e-05
+	2600) Maximum change 3.337287e-05
+	2700) Maximum change 3.295632e-05
+	2800) Maximum change 3.254528e-05
+	2900) Maximum change 3.213967e-05
+	3000) Maximum change 3.173941e-05
+	3100) Maximum change 3.134441e-05
+	3200) Maximum change 3.095461e-05
+	3300) Maximum change 3.056993e-05
+	3400) Maximum change 3.019029e-05
+	3500) Maximum change 2.981561e-05
+	3600) Maximum change 2.944583e-05
+	3700) Maximum change 2.908088e-05
+	3800) Maximum change 2.872068e-05
+	3900) Maximum change 2.836516e-05
+	4000) Maximum change 2.801427e-05
+	4100) Maximum change 2.766792e-05
+	4200) Maximum change 2.732607e-05
+	4300) Maximum change 2.698864e-05
+	4400) Maximum change 2.665557e-05
+	4500) Maximum change 2.632679e-05
+	4600) Maximum change 2.600226e-05
+	4700) Maximum change 2.568190e-05
+	4800) Maximum change 2.536567e-05
+	4900) Maximum change 2.505349e-05
+	5000) Maximum change 2.474532e-05
+	5100) Maximum change 2.444110e-05
+	5200) Maximum change 2.414077e-05
+	5300) Maximum change 2.384429e-05
+	5400) Maximum change 2.355159e-05
+	5500) Maximum change 2.326262e-05
+	5600) Maximum change 2.297734e-05
+	5700) Maximum change 2.269568e-05
+	5800) Maximum change 2.241761e-05
+	5900) Maximum change 2.214308e-05
+	6000) Maximum change 2.187202e-05
+	6100) Maximum change 2.160441e-05
+	6200) Maximum change 2.134018e-05
+	6300) Maximum change 2.107930e-05
+	6400) Maximum change 2.082171e-05
+	6500) Maximum change 2.056738e-05
+	6600) Maximum change 2.031626e-05
+	6700) Maximum change 2.006831e-05
+	6800) Maximum change 1.982348e-05
+	6900) Maximum change 1.958173e-05
+	7000) Maximum change 1.934302e-05
+	7100) Maximum change 1.910731e-05
+	7200) Maximum change 1.887456e-05
+	7300) Maximum change 1.864473e-05
+	7400) Maximum change 1.841779e-05
+	7500) Maximum change 1.819368e-05
+	7600) Maximum change 1.797238e-05
+	7700) Maximum change 1.775384e-05
+	7800) Maximum change 1.753804e-05
+	7900) Maximum change 1.732493e-05
+	8000) Maximum change 1.711449e-05
+	8100) Maximum change 1.690666e-05
+	8200) Maximum change 1.670143e-05
+	8300) Maximum change 1.649875e-05
+	8400) Maximum change 1.629859e-05
+	8500) Maximum change 1.610093e-05
+	8600) Maximum change 1.590571e-05
+	8700) Maximum change 1.571293e-05
+	8800) Maximum change 1.552253e-05
+	8900) Maximum change 1.533450e-05
+	9000) Maximum change 1.514880e-05
+	9100) Maximum change 1.496540e-05
+	9200) Maximum change 1.478427e-05
+	9300) Maximum change 1.460538e-05
+	9400) Maximum change 1.442870e-05
+	9500) Maximum change 1.425421e-05
+	9600) Maximum change 1.408187e-05
+	9700) Maximum change 1.391166e-05
+	9800) Maximum change 1.374355e-05
+	9900) Maximum change 1.357751e-05
+	10000) Maximum change 1.341352e-05
+	10100) Maximum change 1.325154e-05
+	10200) Maximum change 1.309157e-05
+	10300) Maximum change 1.293356e-05
+	10400) Maximum change 1.277749e-05
+	10500) Maximum change 1.262335e-05
+	10600) Maximum change 1.247109e-05
+	10700) Maximum change 1.232071e-05
+	10800) Maximum change 1.217217e-05
+	10900) Maximum change 1.202546e-05
+	11000) Maximum change 1.188054e-05
+	11100) Maximum change 1.173740e-05
+	11200) Maximum change 1.159602e-05
+	11300) Maximum change 1.145637e-05
+	11400) Maximum change 1.131842e-05
+	11500) Maximum change 1.118217e-05
+	11600) Maximum change 1.104758e-05
+	11700) Maximum change 1.091464e-05
+	11800) Maximum change 1.078332e-05
+	11900) Maximum change 1.065360e-05
+	12000) Maximum change 1.052547e-05
+	12100) Maximum change 1.039891e-05
+	12200) Maximum change 1.027389e-05
+	12300) Maximum change 1.015039e-05
+	12400) Maximum change 1.002840e-05
+	12500) Maximum change 9.907897e-06
+	12600) Maximum change 9.788862e-06
+	12700) Maximum change 9.671276e-06
+	12800) Maximum change 9.555122e-06
+	12900) Maximum change 9.440382e-06
+	13000) Maximum change 9.327038e-06
+	13100) Maximum change 9.215073e-06
+	13200) Maximum change 9.104469e-06
+	13300) Maximum change 8.995210e-06
+	13400) Maximum change 8.887278e-06
+	13500) Maximum change 8.780657e-06
+	13600) Maximum change 8.675331e-06
+	13700) Maximum change 8.571284e-06
+	13800) Maximum change 8.468499e-06
+	13900) Maximum change 8.366962e-06
+	14000) Maximum change 8.266656e-06
+	14100) Maximum change 8.167566e-06
+	14200) Maximum change 8.069677e-06
+	14300) Maximum change 7.972974e-06
+	14400) Maximum change 7.877443e-06
+	14500) Maximum change 7.783069e-06
+	14600) Maximum change 7.689838e-06
+	14700) Maximum change 7.597735e-06
+	14800) Maximum change 7.506747e-06
+	14900) Maximum change 7.416860e-06
+	15000) Maximum change 7.328060e-06
+	15100) Maximum change 7.240333e-06
+	15200) Maximum change 7.153667e-06
+	15300) Maximum change 7.068049e-06
+	15400) Maximum change 6.983465e-06
+	15500) Maximum change 6.899903e-06
+	15600) Maximum change 6.817350e-06
+	15700) Maximum change 6.735794e-06
+	15800) Maximum change 6.655223e-06
+	15900) Maximum change 6.575623e-06
+	16000) Maximum change 6.496985e-06
+	16100) Maximum change 6.419295e-06
+	16200) Maximum change 6.342542e-06
+	16300) Maximum change 6.266714e-06
+	16400) Maximum change 6.191801e-06
+	16500) Maximum change 6.117791e-06
+	16600) Maximum change 6.044672e-06
+	16700) Maximum change 5.972435e-06
+	16800) Maximum change 5.901067e-06
+	16900) Maximum change 5.830559e-06
+	17000) Maximum change 5.760900e-06
+	17100) Maximum change 5.692080e-06
+	17200) Maximum change 5.624088e-06
+	17300) Maximum change 5.556914e-06
+	17400) Maximum change 5.490549e-06
+	17500) Maximum change 5.424982e-06
+	17600) Maximum change 5.360203e-06
+	17700) Maximum change 5.296203e-06
+	17800) Maximum change 5.232973e-06
+	17900) Maximum change 5.170503e-06
+	18000) Maximum change 5.108784e-06
+	18100) Maximum change 5.047807e-06
+	18200) Maximum change 4.987562e-06
+	18300) Maximum change 4.928041e-06
+	18400) Maximum change 4.869235e-06
+	18500) Maximum change 4.811135e-06
+	18600) Maximum change 4.753732e-06
+	18700) Maximum change 4.697019e-06
+	18800) Maximum change 4.640986e-06
+	18900) Maximum change 4.585626e-06
+	19000) Maximum change 4.530931e-06
+	19100) Maximum change 4.476891e-06
+	19200) Maximum change 4.423500e-06
+	19300) Maximum change 4.370749e-06
+	19400) Maximum change 4.318631e-06
+	19500) Maximum change 4.267138e-06
+	19600) Maximum change 4.216262e-06
+	19700) Maximum change 4.165996e-06
+	19800) Maximum change 4.116333e-06
+	19900) Maximum change 4.067265e-06
+	20000) Maximum change 4.018784e-06
+	20100) Maximum change 3.970885e-06
+	20200) Maximum change 3.923559e-06
+	20300) Maximum change 3.876801e-06
+	20400) Maximum change 3.830602e-06
+	20500) Maximum change 3.784957e-06
+	20600) Maximum change 3.739858e-06
+	20700) Maximum change 3.695299e-06
+	20800) Maximum change 3.651274e-06
+	20900) Maximum change 3.607775e-06
+	21000) Maximum change 3.564798e-06
+	21100) Maximum change 3.522334e-06
+	21200) Maximum change 3.480379e-06
+	21300) Maximum change 3.438925e-06
+	21400) Maximum change 3.397968e-06
+	21500) Maximum change 3.357500e-06
+	21600) Maximum change 3.317516e-06
+	21700) Maximum change 3.278011e-06
+	21800) Maximum change 3.238978e-06
+	21900) Maximum change 3.200412e-06
+	22000) Maximum change 3.162306e-06
+	22100) Maximum change 3.124657e-06
+	22200) Maximum change 3.087457e-06
+	22300) Maximum change 3.050702e-06
+	22400) Maximum change 3.014386e-06
+	22500) Maximum change 2.978504e-06
+	22600) Maximum change 2.943051e-06
+	22700) Maximum change 2.908022e-06
+	22800) Maximum change 2.873411e-06
+	22900) Maximum change 2.839213e-06
+	23000) Maximum change 2.805424e-06
+	23100) Maximum change 2.772038e-06
+	23200) Maximum change 2.739051e-06
+	23300) Maximum change 2.706458e-06
+	23400) Maximum change 2.674254e-06
+	23500) Maximum change 2.642435e-06
+	23600) Maximum change 2.610996e-06
+	23700) Maximum change 2.579931e-06
+	23800) Maximum change 2.549238e-06
+	23900) Maximum change 2.518911e-06
+	24000) Maximum change 2.488946e-06
+	24100) Maximum change 2.459338e-06
+	24200) Maximum change 2.430084e-06
+	24300) Maximum change 2.401179e-06
+	24400) Maximum change 2.372618e-06
+	24500) Maximum change 2.344399e-06
+	24600) Maximum change 2.316516e-06
+	24700) Maximum change 2.288965e-06
+	24800) Maximum change 2.261744e-06
+	24900) Maximum change 2.234846e-06
+	25000) Maximum change 2.208270e-06
+	25100) Maximum change 2.182011e-06
+	25200) Maximum change 2.156064e-06
+	25300) Maximum change 2.130427e-06
+	25400) Maximum change 2.105096e-06
+	25500) Maximum change 2.080067e-06
+	25600) Maximum change 2.055336e-06
+	25700) Maximum change 2.030899e-06
+	25800) Maximum change 2.006754e-06
+	25900) Maximum change 1.982897e-06
+	26000) Maximum change 1.959324e-06
+	26100) Maximum change 1.936033e-06
+	26200) Maximum change 1.913018e-06
+	26300) Maximum change 1.890278e-06
+	26400) Maximum change 1.867809e-06
+	26500) Maximum change 1.845607e-06
+	26600) Maximum change 1.823671e-06
+	26700) Maximum change 1.801995e-06
+	26800) Maximum change 1.780578e-06
+	26900) Maximum change 1.759415e-06
+	27000) Maximum change 1.738505e-06
+	27100) Maximum change 1.717844e-06
+	27200) Maximum change 1.697429e-06
+	27300) Maximum change 1.677257e-06
+	27400) Maximum change 1.657325e-06
+	27500) Maximum change 1.637631e-06
+	27600) Maximum change 1.618171e-06
+	27700) Maximum change 1.598943e-06
+	27800) Maximum change 1.579943e-06
+	27900) Maximum change 1.561170e-06
+	28000) Maximum change 1.542621e-06
+	28100) Maximum change 1.524292e-06
+	28200) Maximum change 1.506181e-06
+	28300) Maximum change 1.488286e-06
+	28400) Maximum change 1.470604e-06
+	28500) Maximum change 1.453133e-06
+	28600) Maximum change 1.435869e-06
+	28700) Maximum change 1.418811e-06
+	28800) Maximum change 1.401956e-06
+	28900) Maximum change 1.385302e-06
+	29000) Maximum change 1.368845e-06
+	29100) Maximum change 1.352585e-06
+	29200) Maximum change 1.336518e-06
+	29300) Maximum change 1.320642e-06
+	29400) Maximum change 1.304955e-06
+	29500) Maximum change 1.289455e-06
+	29600) Maximum change 1.274139e-06
+	29700) Maximum change 1.259005e-06
+	29800) Maximum change 1.244051e-06
+	29900) Maximum change 1.229275e-06
+	30000) Maximum change 1.214675e-06
+	30100) Maximum change 1.200249e-06
+	30200) Maximum change 1.185994e-06
+	30300) Maximum change 1.171909e-06
+	30400) Maximum change 1.157991e-06
+	30500) Maximum change 1.144239e-06
+	30600) Maximum change 1.130650e-06
+	30700) Maximum change 1.117223e-06
+	30800) Maximum change 1.103956e-06
+	30900) Maximum change 1.090846e-06
+	31000) Maximum change 1.077893e-06
+	31100) Maximum change 1.065093e-06
+	31200) Maximum change 1.052445e-06
+	31300) Maximum change 1.039948e-06
+	31400) Maximum change 1.027600e-06
+	31500) Maximum change 1.015398e-06
+	31600) Maximum change 1.003341e-06
+Switched to exact iteration in iteration 31628
+Converged in 31629 iterations. Final maximum change 9.99872e-07
+Wrote pmf.xvg
+
+In case you use results from gmx wham for a publication, please cite:
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+J. S. Hub, B. L. de Groot and D. van der Spoel
+g_wham - A free weighted histogram analysis implementation including robust
+error and autocorrelation estimates
+J. Chem. Theory Comput. 6 (2010) pp. 3713-3720
+-------- -------- --- Thank You --- -------- --------
+
