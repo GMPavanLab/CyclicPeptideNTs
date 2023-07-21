@@ -1,0 +1,61 @@
+a 1-90
+name 10 nt1
+a 91-180
+name 11	nt2
+a 181-270
+name 12	nt3
+a 271-360
+name 13	nt4
+a 361-450
+name 14	nt5
+a 451-540
+name 15	nt6
+a 541-630
+name 16 nt7
+a 631-720
+name 17 nt8
+a 721-810
+name 18 nt9
+a 811-900
+name 19 nt10
+a 901-990
+name 20 nt11
+a 991-1080
+name 21 nt12
+a 1081-1170
+name 22 nt13
+a 1171-1260
+name 23 nt14
+
+r TRP
+name 24 TRP
+24&10
+name 25 TRP1
+24&11
+name 26 TRP2
+24&12
+name 27	TRP3
+24&13
+name 28	TRP4
+24&14
+name 29	TRP5
+24&15
+name 30	TRP6
+24&16
+name 31	TRP7
+24&17
+name 32 TRP8
+24&18
+name 33 TRP9
+24&19
+name 34 TRP10
+24&20
+name 35 TRP11
+24&21
+name 36 TRP12
+24&22
+name 37 TRP13
+24&23
+name 38 TRP14
+q
+
